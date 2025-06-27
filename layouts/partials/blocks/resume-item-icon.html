@@ -1,10 +1,10 @@
 {{/* Dynamically show UCR or MIST logo based on institution name */}}
-{{ $institution := .institution }}
+{{ $institution := .Params.institution }}
 
 {{ if in $institution "Riverside" }}
   <img src="/media/ucr.png" style="height:20px; vertical-align:middle; margin-right:8px;">
 {{ else if in $institution "Military Institute of Science and Technology" }}
   <img src="/media/mist.png" style="height:20px; vertical-align:middle; margin-right:8px;">
 {{ else }}
-  {{/* fallback: nothing */}}
+  <!-- fallback -->
 {{ end }}
