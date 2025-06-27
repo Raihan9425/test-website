@@ -1,5 +1,4 @@
-
-/* Force-hide all graduation cap icons */
+/* Hide all graduation caps */
 .fa.fa-graduation-cap,
 .fa-graduation-cap,
 i.fa.fa-graduation-cap,
@@ -8,7 +7,12 @@ ul.ul-edu li .fa-li {
   display: none !important;
 }
 
-/* Ensure inline logos align nicely */
+/* Target the bullet ::before icons used by Hugo Blox's list */
+ul.ul-edu li::before {
+  display: none !important;
+}
+
+/* Align logos in institution lines */
 .ul-edu .institution img {
   height: 22px;
   margin-right: 4px;
