@@ -1,0 +1,16 @@
+
+/* Force-hide all graduation cap icons */
+.fa.fa-graduation-cap,
+.fa-graduation-cap,
+i.fa.fa-graduation-cap,
+i.fa-graduation-cap,
+ul.ul-edu li .fa-li {
+  display: none !important;
+}
+
+/* Ensure inline logos align nicely */
+.ul-edu .institution img {
+  height: 22px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
