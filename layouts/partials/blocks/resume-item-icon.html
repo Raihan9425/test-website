@@ -1,9 +1,7 @@
 {{ $institution := .Params.institution }}
 
 {{ if or (in $institution "Riverside") (in $institution "UCR") }}
-  <img src="/media/ucr.png" style="height:20px; vertical-align:middle; margin-right:8px;">
+  <img src="/media/ucr.svg" style="height:20px; vertical-align:middle; margin-right:8px;">
 {{ else if or (in $institution "MIST") (in $institution "Military Institute") }}
-  <img src="/media/mist.png" style="height:20px; vertical-align:middle; margin-right:8px;">
-{{ else }}
-  <!-- fallback -->
+  <img src="/media/mist.svg" style="height:20px; vertical-align:middle; margin-right:8px;">
 {{ end }}
