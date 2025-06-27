@@ -22,3 +22,7 @@ ul.ul-edu li::before {
   content: none !important;
   display: none !important;
 }
+/* Hide the SVG hat icon next to education/experience entries */
+.flex-shrink-0.w-5.h-5.me-2.mt-1 {
+  display: none !important;
+}
