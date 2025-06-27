@@ -18,3 +18,7 @@ ul.ul-edu li::before {
   margin-right: 4px;
   vertical-align: middle;
 }
+ul.ul-edu li::before {
+  content: none !important;
+  display: none !important;
+}
