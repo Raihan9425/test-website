@@ -50,11 +50,11 @@ interests:
 
 education:
   - area: PhD Earth and Planetary Science, 2030 (est.)
-    institution: University of California, Riverside
+    institution: UCR
     date_start: 2025-09-22
     date_end: 2030-09-22
   - area: BSc Civil and Water Resources Engineering, 2019
-    institution: Military Institute of Science and Technology (MIST)
+    institution: MIST
     date_start: 2015-03-01
     date_end: 2019-01-31
 
